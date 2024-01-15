@@ -1,0 +1,335 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Pexwave Dark",
+  "settings": {
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "primary",
+          "name": "Primary",
+          "color": "#A1C9FF"
+        },
+        {
+          "slug": "on-primary",
+          "name": "On Primary",
+          "color": "#00325A"
+        },
+        {
+          "slug": "inverse-primary",
+          "name": "Inverse Primary",
+          "color": "#0061A7"
+        },
+        {
+          "slug": "primary-container",
+          "name": "Primary Container",
+          "color": "#006DBC"
+        },
+        {
+          "slug": "on-primary-container",
+          "name": "On Primary Container",
+          "color": "#FFFFFF"
+        },
+        {
+          "slug": "primary-fixed",
+          "name": "Primary Fixed",
+          "color": "#D2E4FF"
+        },
+        {
+          "slug": "on-primary-fixed",
+          "name": "On Primary Fixed",
+          "color": "#001C37"
+        },
+        {
+          "slug": "on-primary-fixed-variant",
+          "name": "On Primary Fixed Variant",
+          "color": "#00487F"
+        },
+        {
+          "slug": "on-primary-fixed-dim",
+          "name": "On Primary Fixed Dim",
+          "color": "#A1C9FF"
+        },
+        {
+          "slug": "secondary",
+          "name": "Secondary",
+          "color": "#86CEFF"
+        },
+        {
+          "slug": "on-secondary",
+          "name": "On Secondary",
+          "color": "#00344C"
+        },
+        {
+          "slug": "secondary-container",
+          "name": "Secondary Container",
+          "color": "#2D9AD2"
+        },
+        {
+          "slug": "on-secondary-container",
+          "name": "On Secondary Container",
+          "color": "#000000"
+        },
+        {
+          "slug": "secondary-fixed",
+          "name": "Secondary Fixed",
+          "color": "#C8E6FF"
+        },
+        {
+          "slug": "on-secondary-fixed",
+          "name": "On Secondary Fixed",
+          "color": "#001E2E"
+        },
+        {
+          "slug": "on-secondary-fixed-variant",
+          "name": "On Secondary Fixed Variant",
+          "color": "#004C6D"
+        },
+        {
+          "slug": "secondary-fixed-dim",
+          "name": "Secondary Fixed Dim",
+          "color": "#86CEFF"
+        },
+        {
+          "slug": "tertiary",
+          "name": "Tertiary",
+          "color": "#52DF93"
+        },
+        {
+          "slug": "on-tertiary",
+          "name": "On Tertiary",
+          "color": "#00391E"
+        },
+        {
+          "slug": "tertiary-container",
+          "name": "Tertiary Container",
+          "color": "#00A764"
+        },
+        {
+          "slug": "on-tertiary-container",
+          "name": "On Tertiary Container",
+          "color": "#000000"
+        },
+        {
+          "slug": "tertiary-fixed",
+          "name": "Tertiary Fixed",
+          "color": "#72FCAD"
+        },
+        {
+          "slug": "on-tertiary-fixed",
+          "name": "On Tertiary Fixed",
+          "color": "#002110"
+        },
+        {
+          "slug": "on-tertiary-fixed-variant",
+          "name": "On Tertiary Fixed Variant",
+          "color": "#00522E"
+        },
+        {
+          "slug": "tertiary-fixed-dim",
+          "name": "Tertiary Fixed Dim",
+          "color": "#52DF93"
+        },
+
+        {
+          "slug": "background",
+          "name": "Background",
+          "color": "#101419"
+        },
+        {
+          "slug": "on-background",
+          "name": "On Background",
+          "color": "#E0E2EA"
+        },
+        
+
+        {
+          "slug": "surface",
+          "name": "Surface",
+          "color": "#101419"
+        },
+        {
+          "slug": "on-surface",
+          "name": "On Surface",
+          "color": "#E0E2EA"
+        },
+        {
+          "slug": "inverse-surface",
+          "name": "Inverse Surface",
+          "color": "#E0E2EA"
+        },
+        {
+          "slug": "inverse-on-surface",
+          "name": "Inverse On Surface",
+          "color": "#2D3136"
+        },
+        {
+          "slug": "surface-variant",
+          "name": "Surface Variant",
+          "color": "#404752"
+        },
+        {
+          "slug": "on-surface-variant",
+          "name": "On Surface Variant",
+          "color": "#C0C7D3"
+        },
+        {
+          "slug": "surface-bright",
+          "name": "Surface Bright",
+          "color": "#36393F"
+        },
+        {
+          "slug": "surface-container",
+          "name": "Surface Container",
+          "color": "#1C2025"
+        },
+        {
+          "slug": "surface-container-high",
+          "name": "Surface Container High",
+          "color": "#272A30"
+        },
+        {
+          "slug": "surface-container-highest",
+          "name": "Surface Container Highest",
+          "color": "#31353B"
+        },
+        {
+          "slug": "surface-container-low",
+          "name": "Surface Container Low",
+          "color": "#181C21"
+        },
+        {
+          "slug": "surface-container-lowest",
+          "name": "Surface Container Lowest",
+          "color": "#0B0E14"
+        },
+        {
+          "slug": "surface-dim",
+          "name": "Surface Dim",
+          "color": "#101419"
+        },
+        {
+          "slug": "surface-tint",
+          "name": "Surface Tint",
+          "color": "#A1C9FF"
+        },
+        {
+          "slug": "outline",
+          "name": "Outline",
+          "color": "#8A919D"
+        },
+        {
+          "slug": "outline-variant",
+          "name": "Outline Variant",
+          "color": "#404752"
+        },
+        {
+          "slug": "shadow",
+          "name": "Shadow",
+          "color": "#000000"
+        },
+        {
+          "slug": "scrim",
+          "name": "Scrim",
+          "color": "#000000"
+        },
+
+        {
+          "slug": "error",
+          "name": "Error",
+          "color": "#FFB3B2"
+        },
+        {
+          "slug": "on-error",
+          "name": "On Error",
+          "color": "#680013"
+        },
+        {
+          "slug": "error-container",
+          "name": "Error Container",
+          "color": "#E1253E"
+        },
+        {
+          "slug": "on-error-container",
+          "name": "On Error Container",
+          "color": "#FFFFFF"
+        },
+
+        {
+          "slug": "warning",
+          "name": "Warning",
+          "color": "#FFCC00"
+        },
+        {
+          "slug": "on-warning",
+          "name": "On Warning",
+          "color": "#000000"
+        },
+
+        {
+          "slug": "success",
+          "name": "Success",
+          "color": "#33CC33"
+        },
+        {
+          "slug": "on-success",
+          "name": "On Success",
+          "color": "#000000"
+        },
+
+        
+        {
+          "slug": "information",
+          "name": "Information",
+          "color": "#0099CC"
+        },
+        {
+          "slug": "on-information",
+          "name": "On Information",
+          "color": "#FFFFFF"
+        },
+        
+        {
+          "name": "Transparent",
+          "color": "transparent",
+          "slug": "transparent"
+        },
+        {
+          "name": "Current Color",
+          "color": "currentColor",
+          "slug": "currentColor"
+        },
+        {
+          "name": "Inherit",
+          "color": "inherit",
+          "slug": "inherit"
+        }
+      ],
+      "gradients": [
+				{
+					"slug": "primary",
+          "gradient": "linear-gradient(284.04deg, #101419 0%, #0E213E 25.33%, #284A1C 52.07%, #F8F9FF 100%)",
+					"name": "Primary"
+				}
+      ],
+      "duotone": [
+        {
+					"colors": [ "#00528F", "#00528F" ],
+					"slug": "primary",
+					"name": "Primary"
+				},
+        {
+					"colors": [ "#FFFFFF", "#FFFFFF" ],
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+        {
+					"colors": [ "#F8F9FF", "#F8F9FF" ],
+					"slug": "tertiary",
+					"name": "Tertiary"
+				}
+      ]
+    }
+  }
+}
